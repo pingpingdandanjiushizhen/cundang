@@ -1,4 +1,0 @@
-test auto-sync
-second test
-third test
-fourth test
