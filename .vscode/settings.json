@@ -1,0 +1,14 @@
+{
+	"task.allowAutomaticTasks": "on",
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+	"saveAndRun": {
+		"commands": [
+			{
+				"match": "\\.(md|txt|png|jpg|jpeg|gif|svg|pdf|yaml|yml|json|toml|css|js|html)$",
+				"cmd": "D:\\software\\Git\\usr\\bin\\bash.exe -c \"cd /d/study/cundang && git add -A && git diff --cached --quiet || (git commit -m 'auto-sync $(date +\\\"%Y-%m-%d %H:%M\\\")' && git push origin main)\"",
+				"isAsync": true
+			}
+		]
+	}
+}

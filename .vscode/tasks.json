@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "auto-sync",
+			"type": "shell",
+			"command": "D:\\software\\Git\\usr\\bin\\bash.exe",
+			"args": [
+				"-c",
+				"cd /d/study/cundang && git add -A && git diff --cached --quiet || (git commit -m \"auto-sync $(date '+%Y-%m-%d %H:%M')\" && git push origin main)"
+			],
+			"group": "none",
+			"presentation": {
+				"echo": false,
+				"reveal": "silent",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false
+			},
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}
