@@ -8,4 +8,4 @@
 
 # justTouch
 
-# dai'fu'lu'xing
+# dai'fu'luxing
