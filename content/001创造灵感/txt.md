@@ -8,4 +8,4 @@
 
 # justTouch
 
-# 带fu'lu'xing
+# 带父lu'xing
